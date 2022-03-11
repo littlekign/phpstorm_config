@@ -37,7 +37,7 @@
       <shortcut-conflict owner="ide">
         <text>ctrl pressed I</text>
       </shortcut-conflict>
-      <shortcut-conflict owner="vim">
+      <shortcut-conflict owner="ide">
         <text>ctrl pressed W</text>
       </shortcut-conflict>
       <shortcut-conflict owner="ide">
@@ -63,6 +63,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed Y</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed T</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
