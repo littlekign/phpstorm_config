@@ -4,7 +4,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="met" value="public function $VAR_VALUE$(){&#10;   &#10;}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="met" value="public function $VAR_VALUE$()&#10;{&#10;   &#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="VAR_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
