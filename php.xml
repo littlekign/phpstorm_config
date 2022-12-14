@@ -1,15 +1,16 @@
 <application>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter id="32895169-3cab-4829-83fd-bffdad6e1851" name="PHP 7.4" home="D:\applications\php74\php.exe" debugger_id="php.debugger.XDebug" />
+      <interpreter id="32895169-3cab-4829-83fd-bffdad6e1851" name="PHP 7.4" home="D:\applications\dev_software\php\php74\php.exe" debugger_id="php.debugger.XDebug" />
+      <interpreter id="3c40d83c-706e-40fd-aaea-527e0546c8d0" name="PHP82" home="D:\applications\dev_software\php\php82\php.exe" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 7.4">
-        <phpinfo binary_type="PHP" php_cgi="D:\applications\php74\php-cgi.exe" php_cli="D:\applications\php74\php.exe" path_separator=";" version="7.4.13">
+        <phpinfo binary_type="PHP" php_cgi="D:\applications\dev_software\php\php74\php-cgi.exe" php_cli="D:\applications\dev_software\php\php74\php.exe" path_separator=";" version="7.4.13">
           <additional_php_ini />
-          <configuration_file>D:\applications\php74\php.ini</configuration_file>
+          <configuration_file>D:\applications\dev_software\php\php74\php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="include_path" value=".;C:\php\pear" />
           </configuration_options>
@@ -31,6 +32,7 @@
             <extension name="filter" />
             <extension name="hash" />
             <extension name="iconv" />
+            <extension name="intl" />
             <extension name="json" />
             <extension name="libxml" />
             <extension name="mbstring" />
@@ -47,6 +49,45 @@
             <extension name="xmlreader" />
             <extension name="xmlwriter" />
             <extension name="zip" />
+            <extension name="zlib" />
+          </loaded_extensions>
+        </phpinfo>
+      </interpreter>
+      <interpreter name="PHP82">
+        <phpinfo binary_type="PHP" php_cgi="D:\applications\dev_software\php\php82\php-cgi.exe" php_cli="D:\applications\dev_software\php\php82\php.exe" path_separator=";" version="8.2.0">
+          <additional_php_ini />
+          <configuration_file />
+          <configuration_options>
+            <configuration_option name="include_path" value=".;C:\php\pear" />
+          </configuration_options>
+          <debuggers />
+          <loaded_extensions>
+            <extension name="Core" />
+            <extension name="PDO" />
+            <extension name="Phar" />
+            <extension name="Reflection" />
+            <extension name="SPL" />
+            <extension name="SimpleXML" />
+            <extension name="bcmath" />
+            <extension name="calendar" />
+            <extension name="ctype" />
+            <extension name="date" />
+            <extension name="dom" />
+            <extension name="filter" />
+            <extension name="hash" />
+            <extension name="iconv" />
+            <extension name="json" />
+            <extension name="libxml" />
+            <extension name="mysqlnd" />
+            <extension name="pcre" />
+            <extension name="random" />
+            <extension name="readline" />
+            <extension name="session" />
+            <extension name="standard" />
+            <extension name="tokenizer" />
+            <extension name="xml" />
+            <extension name="xmlreader" />
+            <extension name="xmlwriter" />
             <extension name="zlib" />
           </loaded_extensions>
         </phpinfo>
